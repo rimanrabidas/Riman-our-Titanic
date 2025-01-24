@@ -1,0 +1,108 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0rem 0rem 50rem 0rem  rgb(148, 67, 224) inset;
+}
+.section_contact2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+    /* background-color: rgb(236, 235, 235); */
+}
+.container2{
+    width: 70%;
+}
+.grid2{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  rgb(236, 235, 235);
+    box-shadow: 0rem 0rem 1rem 0rem rgb(139, 137, 137);
+}
+.grid_two2{
+    width: 27rem;
+    height: 37rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0rem 0rem 1rem 0rem rgb(139, 137, 137);
+    margin-left: 0rem;
+    border-radius: 1rem;
+}
+.grid-three-3{
+height: 100%;
+width: 40rem;
+margin-left: -5rem;
+margin-top: 10rem;
+}
+.div2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 28rem;
+}
+.lable2{
+    margin-bottom: -.1rem;
+    color: rgb(148, 67, 224);
+}
+input.imp{
+    background-color:rgb(218, 214, 223); ;
+    width: 100%;
+    height: 3rem;
+    font-size: 1.3rem;
+    color: black;
+}
+.btn2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    height: 4rem;
+    width: 73%;
+    background-color: rgb(148, 67, 224);
+    color: white;
+    font-weight: bold;
+    border: .5rem solid rgb(148, 67, 224);
+    font-size: 1.5rem;
+}
+.section_common_heading2{
+    color:rgb(148, 67, 224); 
+    margin-top: 1rem;
+    font-size: 2.5rem;
+}
+.section_common_sebheading2{
+    margin-top: -2rem;
+    font-size: 1rem;
+}
+.section_common_sebheading2 a{
+    color: rgb(148, 67, 224); ;
+}
+
+
+@media only screen and (max-width:500px) {
+
+    .section_contact2{
+   display: block;
+    }
+    .grid2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .grid-three-3{
+      margin-left: -13rem;
+    }
+    .grid_two2{
+margin-top: 5rem;
+    }
+}

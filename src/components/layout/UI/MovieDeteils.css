@@ -1,0 +1,117 @@
+.hero_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main_container{
+    display: flex;
+   margin: 10rem 2rem;
+    width: 80%;
+    height: 50%;
+    box-shadow: 0rem 0rem 1rem 0rem black ;
+    background-color: yellow;
+}
+.main2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+
+.poster{
+height: 100%;
+width: 40rem;
+box-shadow: 0.1rem 0rem .5rem 0rem black;
+}
+.ticket_container{
+    /* background-color: green; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    
+}
+.tickit_contont{
+ margin-bottom: 5rem;
+}
+.tickit_movie_title{
+    margin-left: 25rem;
+    margin-top: -.0rem;
+    margin-bottom: -2rem;
+    color: red;
+    word-spacing: 1rem;
+font-size: 4rem;
+font-weight: bold;
+}
+.tickit_curent_price{
+    margin-bottom: -0.5rem;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(193, 250, 250); */
+    /* color: green; */
+    color: rgba(5, 5, 51, 0.744);
+    padding-left: 3rem;
+    word-spacing: 1rem;
+font-size: 1.5rem;
+font-weight: bold;
+border-top-right-radius: 5rem ;
+border-bottom-right-radius: 5rem;
+}
+.tickit_buy_btn_ber{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.tickit_buy_btn{
+width: 45%;
+height:4.5rem;
+border-radius: 10rem;
+font-size: 3rem;
+/* color:  rgb(17, 118, 220); */
+color: yellow;
+/* box-shadow: 0rem 0rem 5rem 1rem rgb(193, 250, 250) inset; */
+box-shadow: 0rem 0rem 5rem 1rem red inset;
+border: none;
+margin-bottom: -1rem;
+}
+.tickit_buy_btn:hover{
+    color: white;
+    background-color:  rgb(17, 118, 220);
+}
+
+
+@media screen and (max-width:500px) {
+    .main_container{
+       height: 100%;
+    }
+    .main2{
+        display: flex;
+        flex-direction: column;
+       height: 100%;
+    }
+    .tickit_movie_title{
+        margin-top: 1rem;
+        margin-left: 12rem;
+        margin-bottom: 2rem;
+    }
+    .ticket_container{
+        width: 100%;
+        margin-left: -2rem;
+    }
+    .tickit_buy_btn_ber{
+        justify-content: space-evenly;
+    }
+    .tickit_buy_btn{
+        width: 35%;
+        margin-bottom: -0rem;
+        }
+        .poster{
+        margin-top: 6rem;
+        border-bottom: 1rem solid rgb(14, 183, 209);
+            }
+}

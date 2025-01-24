@@ -1,0 +1,42 @@
+.ticon{
+  width: 10rem;
+  height: 10rem;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+p{
+    font-size: 2.5rem;
+}
+@media only screen and (max-width: 1000px) {
+    html {
+     font-size: 55%;
+    }
+  }
+@media only screen and (max-width: 800px) {
+    html {
+     font-size: 45%;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    html {
+     font-size: 40%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    html {
+     font-size: 35%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    html {
+     font-size: 45%;
+    }
+  
+  }
