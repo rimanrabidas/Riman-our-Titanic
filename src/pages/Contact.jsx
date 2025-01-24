@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Contact.css"
-import { data, Form } from 'react-router-dom';
+import { Form } from 'react-router-dom';
 export const ContactData = async ({request}) => {
   try {
     const res = await request.formData();
@@ -47,7 +47,7 @@ export const ContactData = async ({request}) => {
   
 </div>
       </section>
-      <img className='img' src="public/messageforfirstproject.avif" alt="send me" />
+      <img className='img' src="/public/messageforfirstproject.avif" alt="send me" />
 
     </div>
   )

@@ -23,10 +23,10 @@ The wreck is located in the middle of the Atlantic Ocean. <br />
 In May 2023, scientists completed a full-scale digital scan of the wreck.</li>
 </div>
       <div className="images">
-        <img src="public/titeniconweater.avif" />
-        <img src="public/sunlighttitenic.jpg" />
-        <img src="public/cooltitenic.avif" />
-        <img src="public/titeniccrash.webp" />
+        <img src="/public/titeniconweater.avif" />
+        <img src="/public/sunlighttitenic.jpg" />
+        <img src="/public/cooltitenic.avif" />
+        <img src="/public/titeniccrash.webp" />
       </div>
     </div>
   )
