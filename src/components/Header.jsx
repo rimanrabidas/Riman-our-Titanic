@@ -31,7 +31,7 @@ const sideber = () => {
                     <NavLink className="span" to="/movie">MOVIES</NavLink>
                     <NavLink className="span" to="/contact">CONTACT</NavLink>
                 </div>
-                <img onClick={sideber} className='threeline' src="/public/menu-bars-svgrepo-com.svg" alt="menu" />
+                <img onClick={sideber} className='threeline' src="/menu-bars-svgrepo-com.svg" alt="menu" />
             </div>
         </header>
     

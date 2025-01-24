@@ -13,7 +13,7 @@ const Home = () => {
         </NavLink>
         <div className="imageber">
           <h1>TITANIC</h1>
-          <img className='titanicbook' src="/public/titanicbook.jpg" alt="Titanic" />
+          <img className='titanicbook' src="/titanicbook.jpg" alt="Titanic" />
         </div>
       </div>
     </div>
