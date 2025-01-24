@@ -144,6 +144,314 @@ animation: explore .5s infinite;
 
                                                     /*home*/
 
+                                                    /*movie*/
+                                                    
+
+.movie{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10rem;
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap: 7rem;
+ margin-left: 1rem;
+ margin-right: 5rem;
+}
+@media only screen and (max-width: 600px) {
+  .movie{
+      grid-template-columns: repeat(3,1fr);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .movie{
+      grid-template-columns: repeat(1,1fr);
+      gap: 15rem;
+  }
+}
+@media only screen and (max-width: 250px) {
+  .movie{
+      grid-template-columns: repeat(2,1fr);
+  }
+}
+
+
+
+
+
+
+
+                                                    /*movie*/
+
+                                                    /*contact*/
+
+
+
+                                                    .contact{
+                                                      display: flex;
+                                                  }
+                                                  .section_contact{
+                                                      margin-top: 6rem;
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      justify-content: center;
+                                                      align-items: center;
+                                                      width: 50%;
+                                                      height: 100%;
+                                                  }
+                                                  
+                                                  
+                                                  .container{
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      border-radius: 1rem 1rem 0rem 0rem;
+                                                      width: 50%;
+                                                      height: 20%;
+                                                      font-size: 2rem;
+                                                      background-color: rgb(239, 163, 0);
+                                                      color: white;
+                                                      padding: 0% 25% ;
+                                                  }
+                                                  .section_common_heading{
+                                                  margin-bottom: -2rem;
+                                                  font-size: 4rem;
+                                                  }
+                                                  .section_common_sebheading{
+                                                  font-size: 1.7rem;
+                                                  color:rgb(243, 238, 238);
+                                                  }
+                                                  
+                                                  
+                                                  .grid{
+                                                      width: 100%;
+                                                      height: 70%;
+                                                  }
+                                                  .grid_two{
+                                                      width: 100%;
+                                                      height: 100%;
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      justify-items: center;
+                                                      justify-content: space-evenly;
+                                                      border-bottom: 0.3rem solid rgb(164, 160, 160);
+                                                  }
+                                                  .div{
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      width: 100%;
+                                                      height: 8rem;
+                                                      font-weight: bold;
+                                                      color: rgb(0, 0, 100);
+                                                  }
+                                                  .div input{
+                                                      height: 40%;
+                                                      color: white;
+                                                      font-weight: bold;
+                                                      font-size: 1.6rem;
+                                                      letter-spacing: 0.2rem;
+                                                      word-spacing: 1rem;
+                                                      background-color: rgb(239, 163, 0);
+                                                      /* box-shadow: 0rem 0rem 1.5rem -0.5rem rgb(231, 198, 7) inset; */
+                                                      border: .1rem solid rgb(160, 159, 159);
+                                                  }
+                                                  .div label{
+                                                      display: flex;
+                                                      align-items: end;
+                                                      letter-spacing: 0.2rem;
+                                                      word-spacing: 1rem;
+                                                      height: 60%;
+                                                      font-size: 2.5rem;
+                                                  }
+                                                  .div2{
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      letter-spacing: 0.2rem;
+                                                      word-spacing: 1rem;
+                                                      width: 100%;
+                                                      height: 28rem;
+                                                      font-weight: bold;
+                                                      color: rgb(0, 0, 100);
+                                                  }
+                                                  .div2 input{
+                                                      height: 80%;
+                                                  }
+                                                  textarea{
+                                                      width: 70rem;
+                                                      letter-spacing: 0.2rem;
+                                                      word-spacing: 1rem;
+                                                      background-color: rgb(239, 163, 0);
+                                                      color: white;
+                                                      font-size: 1.6rem;
+                                                      border-radius: 0rem 0rem  1rem 1rem;
+                                                  }
+                                                  .div2 label{
+                                                      display: flex;
+                                                      align-items: end;
+                                                      height: 20%;
+                                                      font-size: 2.5rem;
+                                                      
+                                                  }
+                                                  .div2 button{
+                                                      font-size: 1.5rem;
+                                                      margin-top: 5rem;
+                                                      width: 18rem;
+                                                      height: 6rem;
+                                                      border-radius: 1rem;
+                                                      border: none;
+                                                      font-weight: bold;
+                                                      /* box-shadow: 0rem 0rem 1.5rem -0.5rem rgb(231, 198, 7) inset; */
+                                                      background-color: rgb(239, 163, 0);
+                                                      background-color: rgb(21, 56, 91);
+                                                      color: rgb(3, 8, 39);
+                                                     margin-left: 25rem;
+                                                     margin-bottom: 1rem;
+                                                  }
+                                                  .img{
+                                                      margin-top: 1rem;
+                                                  }
+                                                  
+                                                  
+                                                  @media only screen and (max-width:500px) {
+                                                  
+                                                      .section_contact{
+                                                          width:100%
+                                                      }
+                                                      .contact{
+                                                          flex-direction: column;
+                                                      }
+                                                      textarea{
+                                                          margin-top: 1rem;
+                                                          width: 65.5rem;
+                                                      }
+                                                      .div2 button{
+                                                          width: 65.5rem;
+                                                          height: 10rem;
+                                                          margin-left: -0rem;
+                                                          font-size: 2.5rem;
+                                                          word-spacing: 1rem;
+                                                      }
+                                                  }
+
+
+
+                                                    /*contact*/
+
+
+                                                    /*Login*/
+                                                    .login{
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      justify-content: center;
+                                                      align-items: center;
+                                                      width: 100%;
+                                                      height: 100vh;
+                                                      box-shadow: 0rem 0rem 50rem 0rem  rgb(148, 67, 224) inset;
+                                                  }
+                                                  .section_contact2{
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      justify-content: center;
+                                                      align-items: center;
+                                                      width: 70%;
+                                                      height: 80%;
+                                                      /* background-color: rgb(236, 235, 235); */
+                                                  }
+                                                  .container2{
+                                                      width: 70%;
+                                                  }
+                                                  .grid2{
+                                                      width: 80%;
+                                                      height: 80%;
+                                                      display: flex;
+                                                      justify-content: center;
+                                                      justify-content: space-around;
+                                                      align-items: center;
+                                                      background-color:  rgb(236, 235, 235);
+                                                      box-shadow: 0rem 0rem 1rem 0rem rgb(139, 137, 137);
+                                                  }
+                                                  .grid_two2{
+                                                      width: 27rem;
+                                                      height: 37rem;
+                                                      display: flex;
+                                                      justify-content: center;
+                                                      align-items: center;
+                                                      flex-direction: column;
+                                                      background-color: white;
+                                                      box-shadow: 0rem 0rem 1rem 0rem rgb(139, 137, 137);
+                                                      margin-left: 0rem;
+                                                      border-radius: 1rem;
+                                                  }
+                                                  .grid-three-3{
+                                                  height: 100%;
+                                                  width: 40rem;
+                                                  margin-left: -5rem;
+                                                  margin-top: 10rem;
+                                                  }
+                                                  .div2{
+                                                      display: flex;
+                                                      justify-content: space-evenly;
+                                                      width: 70%;
+                                                      height: 28rem;
+                                                  }
+                                                  .lable2{
+                                                      margin-bottom: -.1rem;
+                                                      color: rgb(148, 67, 224);
+                                                  }
+                                                  input.imp{
+                                                      background-color:rgb(218, 214, 223); ;
+                                                      width: 100%;
+                                                      height: 3rem;
+                                                      font-size: 1.3rem;
+                                                      color: black;
+                                                  }
+                                                  .btn2{
+                                                      margin-top: 2rem;
+                                                      margin-bottom: 2rem;
+                                                      margin-left: 1rem;
+                                                      height: 4rem;
+                                                      width: 73%;
+                                                      background-color: rgb(148, 67, 224);
+                                                      color: white;
+                                                      font-weight: bold;
+                                                      border: .5rem solid rgb(148, 67, 224);
+                                                      font-size: 1.5rem;
+                                                  }
+                                                  .section_common_heading2{
+                                                      color:rgb(148, 67, 224); 
+                                                      margin-top: 1rem;
+                                                      font-size: 2.5rem;
+                                                  }
+                                                  .section_common_sebheading2{
+                                                      margin-top: -2rem;
+                                                      font-size: 1rem;
+                                                  }
+                                                  .section_common_sebheading2 a{
+                                                      color: rgb(148, 67, 224); ;
+                                                  }
+                                                  
+                                                  
+                                                  @media only screen and (max-width:500px) {
+                                                  
+                                                      .section_contact2{
+                                                     display: block;
+                                                      }
+                                                      .grid2{
+                                                          flex-direction: column;
+                                                          width: 100%;
+                                                      }
+                                                      .grid-three-3{
+                                                        margin-left: -13rem;
+                                                      }
+                                                      .grid_two2{
+                                                  margin-top: 5rem;
+                                                      }
+                                                  }
+
+                                                    /*Login*/
+
+
+
 p{
     font-size: 2.5rem;
 }
