@@ -6,7 +6,7 @@ const Home = () => {
     <div className='home'>
       <div className="homepage">
         <div className="arrowd">
-        <img className='arrow' src="/public/down-arrow-svgrepo-com (2).svg" alt="arrow" />
+        <img className='arrow' src="/down-arrow-svgrepo-com (2).svg" alt="arrow" />
         </div>
         <NavLink  className='explore' to="/movie">
         <button  className='explore'>Explore..</button>

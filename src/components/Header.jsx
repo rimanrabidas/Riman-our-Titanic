@@ -25,7 +25,7 @@ const sideber = () => {
                 </div>
 
                 <div className={`menu ${ac ? "submenu" : "menu"}`}>
-                <img onClick={sideber} className='cencelline' src="/public/icons8-cancel-64.png" alt="menu" />
+                <img onClick={sideber} className='cencelline' src="/icons8-cancel-64.png" alt="menu" />
                     <NavLink className={({ isActive }) => isActive ? "span active" : "span"} to="/">HOME</NavLink>
                     <NavLink className="span" to="/about">ABOUT</NavLink>
                     <NavLink className="span" to="/movie">MOVIES</NavLink>

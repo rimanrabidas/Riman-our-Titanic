@@ -34,7 +34,7 @@ const Login = () => {
 
 
   <div className="grid-three-3">
-  <img className='img' src="/public/login.png" alt="send me" />
+  <img className='img' src="/login.png" alt="send me" />
   </div>
 
 

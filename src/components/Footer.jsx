@@ -5,13 +5,13 @@ const Footer = () => {
     <footer>
 <div className="main">
    <div className="link">
-    <img className='riman_b' src="/public/RIMAN_BUTTOM.jpg" alt="logo" />
+    <img className='riman_b' src="/RIMAN_BUTTOM.jpg" alt="logo" />
     <p className='p'>Welcome to Riman EcomStore. your ultimate destination for cutting gadgets!</p>
     <div className="linkber">
-        <img className="social" src="/public/linkedin-svgrepo-com.svg" alt="Linkdin" />
-        <img className="social" src="/public/whatsapp-svgrepo-com.svg" alt="whatsapp" />
-        <img className="social" src="/public/telegram-logo-svgrepo-com.svg" alt="telegram" />
-        <img className="social" src="/public/twitter-svgrepo-com.svg" alt="twitter" />
+        <img className="social" src="/linkedin-svgrepo-com.svg" alt="Linkdin" />
+        <img className="social" src="/whatsapp-svgrepo-com.svg" alt="whatsapp" />
+        <img className="social" src="/telegram-logo-svgrepo-com.svg" alt="telegram" />
+        <img className="social" src="/twitter-svgrepo-com.svg" alt="twitter" />
     </div>
    </div>
 
@@ -40,7 +40,7 @@ const Footer = () => {
 </div>
 <div className="developer">
 <img className='riman' src="/RP.jpg" alt="(-_-)" /> 
-<p className='pf'>Disign and Code by</p> <img className="love" src="public/love.png" alt="" /> <span>Riman Rabidas</span> 
+<p className='pf'>Disign and Code by</p> <img className="love" src="/love.png" alt="" /> <span>Riman Rabidas</span> 
 </div>
     </footer>
   )

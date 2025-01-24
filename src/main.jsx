@@ -10,6 +10,7 @@ import './pages/Contact.css'
 import './pages/Home.css'
 import './pages/Login.css'
 import './pages/Movie.css'
+import './App.css'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(

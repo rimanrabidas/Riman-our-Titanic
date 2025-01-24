@@ -47,7 +47,7 @@ export const ContactData = async ({request}) => {
   
 </div>
       </section>
-      <img className='img' src="/public/messageforfirstproject.avif" alt="send me" />
+      <img className='img' src="/messageforfirstproject.avif" alt="send me" />
 
     </div>
   )
