@@ -1,5 +1,5 @@
 import React from 'react'
-import  "./Movie.css"
+import "./Movie.css"
 import { useLoaderData } from 'react-router-dom'
 import Card from '../components/layout/UI/Card';
 const Movie = () => {
